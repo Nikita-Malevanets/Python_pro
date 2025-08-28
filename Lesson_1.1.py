@@ -1,6 +1,7 @@
 import math
 
-def calculate_circle_area(radius:float):
+def calculate_circle_area(radius:float) -> float:
+    """ Function calculate the area of circle """
     area = radius * radius * math.pi
     return area
 
