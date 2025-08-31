@@ -40,7 +40,6 @@ def unsubscribe(name: str) -> str:
 subscribe("Olena")  # Subscription confirmed for Olena
 subscribe("Ihor")  # Subscription confirmed for Ihor
 
-
 print(subscribers)  # ['Olena', 'Ihor']
 print(unsubscribe("Ihor"))  # 'Ihor has been removed'
 print(subscribers)  # ['Olena']
