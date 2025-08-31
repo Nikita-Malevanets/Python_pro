@@ -1,11 +1,13 @@
 # Global list to store all calendar events
 list_of_events: list[str] = []
 
+
 def event_calendar():
     """
     Creates and returns three functions to manage a calendar of events:
     add_event, delete_event, and view_events.
     """
+
     def add_event(event: str) -> None:
         """Add a new event to the event list."""
         list_of_events.append(event)
@@ -26,6 +28,7 @@ def event_calendar():
             print("The event list is empty.")
 
     return add_event, delete_event, view_events
+
 
 # Get functions for managing the event calendar
 add_event, delete_event, view_events = event_calendar()
