@@ -5,6 +5,7 @@ class Calculator:
     def subtract(self, a, b):
         return a - b
 
+
 def call_function(obj, method_name, *args):
     """
     Dynamically calls a method of an object by its name.
@@ -33,8 +34,8 @@ def call_function(obj, method_name, *args):
         # Raise an error if the method doesn't exist or isn't callable
         raise AttributeError(f"Method '{method_name}' not found or not callable")
 
+
 # Test
 calc = Calculator()
-print(call_function(calc, "add", 10, 5))       # 15
+print(call_function(calc, "add", 10, 5))  # 15
 print(call_function(calc, "subtract", 10, 5))  # 5
-
