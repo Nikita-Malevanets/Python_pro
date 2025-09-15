@@ -35,3 +35,4 @@ class UniqueIDIterator:
 uid_iter = UniqueIDIterator()
 for _ in range(5):
     print(next(uid_iter))
+
