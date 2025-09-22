@@ -23,6 +23,6 @@ class Singleton(metaclass=SingletonMeta):
         print("Creating instance")
 
 
-obj1 = Singleton()  # Creating instance
+obj1 = Singleton()
 obj2 = Singleton()
-print(obj1 is obj2)  # True
+print(obj1 is obj2)
