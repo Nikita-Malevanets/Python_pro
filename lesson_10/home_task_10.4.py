@@ -1,7 +1,7 @@
 import re
 
 
-def searching_all_dates(input_text):
+def searching_all_dates(input_text: str) -> str:
     """
        Convert all dates in a text from DD/MM/YYYY format to YYYY-MM-DD format.
 
