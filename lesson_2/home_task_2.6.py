@@ -1,3 +1,6 @@
+from _ast import operator
+
+
 def create_calculator(operator: str):
     """
     Create a simple calculator function based on the given operator.
@@ -47,3 +50,9 @@ def create_calculator(operator: str):
 calc = create_calculator('/')
 print(calc(5, 0))  # you can't divide by zero
 print(calc(5, 2))  # 2.5
+
+print(type(calc))
+print(getattr(calc, '__name__'))
+print(calc.__name__)
+print(calc.__doc__)
+print()

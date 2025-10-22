@@ -32,3 +32,5 @@ def event_calendar():
 
 # Get functions for managing the event calendar
 add_event, delete_event, view_events = event_calendar()
+
+
